@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-/*
-BUGS: possibly fixed issues with winning by fixing logic, maybe convert the standard integers to lengths in relation to the board array
-Up to date with TestingAi's win logic, use it more to test and bugfix.
- */
 public class gameLoop {
     //define empty board, default values are empty (0)
     public static int[][] board = new int[6][7];
